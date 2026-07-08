@@ -1,0 +1,7 @@
+# Yuriel-s-Profile-Page-main | Structure | 2026-07-08 18:00:43
+
+.
+├── 94f42cad-d20f-4634-a0fb-e8b090872d22.jpg
+├── image.png
+├── index.html
+└── style.css

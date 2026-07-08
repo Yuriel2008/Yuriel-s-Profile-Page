@@ -1,0 +1,101 @@
+# codebase | 2 files | 2026-07-08 18:00:43
+
+// index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuriel's Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="profile-card">
+        <div class="info-section">
+            <img class="profile-pic" src="94f42cad-d20f-4634-a0fb-e8b090872d22.jpg" alt="Avatar">
+            <h1 class="name">Yuriel Hanapin</h1>
+            <p class="title">Novice Programmer and Student</p>
+            <p class="bio">I am intrested in robotics and coding, always waiting to learn new and old things.</p>
+        </div>
+        <div class="social-links">
+            <a href="https://www.facebook.com/yurie.yohann#"><i class="fab fa-facebook"></i>Facebook</a>
+            <a href="https://mail.google.com/mail/u/?authuser=yuriehanapin@gmail.com"><i class="fa fa-envelope"></i>Email</a>
+            <a href="https://www.instagram.com/yuriehanapin/"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="https://x.com/Yuriel_JYG"><i class="fab fa-twitter"></i>Twitter</a>
+        </div>
+    </div>
+</body>
+</html>
+
+// style.css
+body {
+    font-family: sans-serif;
+    background-color: rgb(234, 232, 232);
+    background-image: url(image.png);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 18px;
+    align-items: center;
+}
+.profile-card {
+    text-align: center;
+    background-color: white;
+    max-width: 600px;
+    width: 100%;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.profile-card:hover {
+    transform: scale(1.02);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.profile-pic {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    border: 5px solid #1a3d67;
+    margin-bottom: 21px;
+    object-fit: cover;
+}
+.name {
+    font-size: 2.30rem;
+    margin: 0;
+}
+.title {
+    margin: 6px 0 17px 0;
+    font-size: 19.2px;
+    color: gray;
+    font-weight: 540;
+}
+.bio {
+    font-size: 16px;
+    /* The font-size measurement is that 1rem = to 16px */
+    line-height: 1.5;
+    color: rgb(88, 87, 87);
+    margin-bottom: 17px;
+}
+.social-links {
+    font-size: 20px;
+    margin: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    /* overflow: auto; */
+}
+.social-links a {
+    text-decoration: none;
+    border-style: solid;
+    border-radius: 12px;
+    padding: 5px;
+}
+
